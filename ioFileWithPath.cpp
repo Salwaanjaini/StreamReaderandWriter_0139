@@ -26,4 +26,9 @@ int main() {
     //selesai dalam menulis sekarang tutup filenya
     outfile.close();
     //membuat file dalam mode membaca
+    ifstream infile;
+    infile.open(NamaFile, ios::in);
+    cout << endl << ">=Membuka dan membaca file" << endl;
+    //jika file ada maka
+   
 }
